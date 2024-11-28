@@ -1,4 +1,22 @@
 
+
+#--------------------------------------------------------------------------------------------------
+
+#task 12 Palindrome
+def is_palindrome(s):
+    # Check if the string is equal to its reverse
+    return s == s[::-1]
+
+# Example usage
+input_str = input("Enter a string to check if it's a palindrome: ")
+if is_palindrome(input_str):
+    print(f"'{input_str}' is a palindrome.")
+else:
+    print(f"'{input_str}' is NOT a palindrome.")
+
+#---------------------------------------------------------------------------------------------------------
+
+
 #task 13 pascal Triangle 
 def generate_pascals_triangle(n):
     triangle = []
